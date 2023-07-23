@@ -20,7 +20,7 @@ echo "installing qt"
 sudo cp -rf /usr/local/qml /usr/local/share/Qt-5/
 sudo rm -rf /usr/local/qml
 echo "insalling apps"
-sudo chomod a+x /usr/local/bin/*
+sudo chmod a+x /usr/local/bin/*
 echo "cleanup"
 sudo rm -rf home/chronos/user/Downloads/musescoretmp/
 echo "adding app to launcher"
